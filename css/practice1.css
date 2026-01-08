@@ -93,3 +93,41 @@
     transform: scaleX(-1) rotate(-45deg);
     margin-right: 10px;
 }
+.my-plan{
+    margin-top: 130px;
+}
+
+.my-plan .my-plan-container{
+    max-width: 1141px;
+    margin: 0 auto;
+    text-align: center;
+}
+.my-plan .my-plan-container h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #151414;
+    margin-bottom: 55px;
+}
+
+.my-plan-container .card-container{
+    display: flex;
+    gap: 131px;
+}
+.my-plan-container .card-container .my-plan-card img{
+    max-width: 92px;
+    height: 92px;
+    margin-bottom: 20px;
+}
+
+.my-plan-container .card-container .my-plan-card h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #151414;
+    margin-bottom: 16px;
+}
+
+.my-plan-container .card-container .my-plan-card p{
+    font-size: 25px;
+    font-weight: 500;
+    color: #737272;
+}
